@@ -52,7 +52,7 @@ export default {
 <script setup>
 import { computed, ref } from 'vue';
 
-let name = ref('卢子炯')
+let name = ref('Your Name')
 let status = ref('（考研版）')
 
 const fullname = computed(() => {
